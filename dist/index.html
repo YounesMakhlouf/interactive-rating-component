@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <meta content="Interactive Rating Component" name="description">
+    <link href="../assets/images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet">
+    <title>Interactive Rating</title>
+</head>
+<body class="bg-very-dark-blue text-white grid place-content-center min-h-screen">
+<main>
+    <div class="space-y-6 bg-gradient-to-b from-dark-blue to-very-dark-blue from-20% wrapper rounded-3xl p-6 text-sm">
+        <header class="aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle">
+            <img alt="Star" src="../assets/images/icon-star.svg">
+        </header>
+        <h1 class="font-bold text-2xl">How did we do?</h1>
+        <p class="text-light-grey opacity-90">Please let us know how we did with your support request. All feedback is
+            appreciated to help us improve our offering!</p>
+        <div class="flex justify-between">
+            <button aria-label="Rating 1"
+                    class="rating aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle text-light-grey font-bold focus-within:bg-light-grey focus-within:text-white hover:text-white hover:bg-orange">
+                1
+            </button>
+            <button aria-label="Rating 2"
+                    class="rating aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle text-light-grey font-bold focus-within:bg-light-grey focus-within:text-white hover:text-white hover:bg-orange">
+                2
+            </button>
+            <button aria-label="Rating 3"
+                    class="rating aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle text-light-grey font-bold focus-within:bg-light-grey focus-within:text-white hover:text-white hover:bg-orange">
+                3
+            </button>
+            <button aria-label="Rating 4"
+                    class="rating aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle text-light-grey font-bold focus-within:bg-light-grey focus-within:text-white hover:text-white hover:bg-orange">
+                4
+            </button>
+            <button aria-label="Rating 5"
+                    class="rating aspect-square rounded-full h-11 place-content-center grid opacity-90 bg-dark-blue-circle text-light-grey font-bold focus-within:bg-light-grey focus-within:text-white hover:text-white hover:bg-orange">
+                5
+            </button>
+        </div>
+        <button class="bg-orange w-full rounded-full p-3 uppercase tracking-widest hover:bg-white hover:text-orange"
+                id="submit">
+            Submit
+        </button>
+    </div>
+</main>
+<script src="index.js"></script>
+</body>
+</html>
